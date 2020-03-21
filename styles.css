@@ -1,0 +1,246 @@
+/** https://sabbirquince.github.io/insurance-landing-page/ **/
+
+body {
+    background-color: hsl(217, 28%, 15%) ;
+    width: 1500px;
+    margin: 0;
+}
+
+nav {
+    margin: 50px 0 0 0;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav div ul li {
+    list-style: none;
+    display: inline;
+    
+}
+
+nav div ul li:last-child {
+    margin-right: 65px;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 1.7;
+    font-size: .8rem;
+}
+
+main {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-div {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+.nav-img {
+    margin-left:50px ;
+}
+
+.nav-li {
+    margin-right: 40px;
+}
+
+
+.main-top {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.main-top-p {
+    color: hsl(0, 0%, 100%) ;
+    line-height: 1.5;
+}
+
+.img-bg-curvy {
+    position: absolute;
+    top: 750px;
+    width: 1500px;
+}
+
+.main-mid {
+    background-color: hsl(218, 28%, 13%);
+    margin: 240px 0 0 0;
+    text-align: center;
+}
+
+.main-mid-table {
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+section table td {
+    padding: 0 40px 0 40px;
+}
+
+.table-div {
+    padding-top: 60px;
+}
+
+.bg-changing-div {
+    background-color:hsl(218, 28%, 13%) ;
+}
+
+.main-mid-2 {
+    margin: 125px 0 0 0;
+    
+}
+
+.main-mid-2-img {
+    float: left;
+    margin-left: 100px;
+}
+
+.main-mid-2-div {
+    color: hsl(0, 0%, 100%);
+    padding: 80px 60px 40px 785px;
+}
+
+.mid-2-btn-link {
+    color:  hsl(176, 68%, 64%);
+    text-decoration: none;
+    padding-bottom: 2.5px;
+    border-bottom: 1px solid hsl(176, 68%, 64%)  ;
+}
+
+.main-mid-3 {
+    clear: left;
+    width: 80%;
+    margin: 310px auto 100px auto;
+}
+
+.mid-3-top-img {
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+}
+
+.mid-3-div {
+    background-color: hsl(219, 30%, 18%);
+    display: inline-block;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    margin-right: 25px;
+}
+
+.mid-3-div-e {
+    background-color: hsl(219, 30%, 18%);
+    display: inline-block;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+}
+
+
+.mid-3-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.main-mid-4 {
+    width: 55%;
+    background-color: hsl(217, 28%, 15%);
+    margin: 25px auto 0;
+    padding: 50px;
+    line-height: 1.5;
+    position: relative;
+    top: 160px;
+    text-align: center;
+}
+
+.mid-4-p {
+    margin-bottom: 40px;
+}
+
+form input {
+    padding: 17px 95px;
+    border-radius: 23px;
+    border: none;
+}
+
+footer {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 53%, 9%) ;
+    padding: 210px 0 90px 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-logo {
+    margin: 0 0 35px 0;
+}
+
+.location-div-main {
+    float: left;
+    margin-right: 100px;
+    width: 350px;
+}
+
+.location-div {
+    height: 60px;
+    float: left;
+    margin: 0 25px 0 0;
+}
+
+.location-div-p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.td-img {
+    margin-right: 20px;
+}
+
+footer table td:nth-child(1) {
+    width: 65%;
+    padding-bottom: 15px;
+}
+
+footer table td:nth-child(2) {
+    width: 22%;
+    padding-bottom: 15px;
+}
+
+footer table td:nth-child(3) {
+    width: 22%;
+    padding-bottom: 15px;
+}
+
+a.get-started:link,
+a.get-started:visited {
+               display: inline-block;
+               width: 9rem;
+               font-weight: 600;
+               font-size: 14px;
+                padding: 12px;
+                margin-right: 15px;
+                text-decoration: none;
+                text-align: center;
+                border-style: solid;
+                border-width: 3px;
+                border-color: hsl(198, 60%, 50%);
+                color: #ffffff;
+                background-color: hsl(198, 60%, 50%);
+                border-radius: 23px;
+                cursor: pointer;
+            }
